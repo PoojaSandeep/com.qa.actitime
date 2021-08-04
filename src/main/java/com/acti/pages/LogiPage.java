@@ -1,5 +1,7 @@
 package com.acti.pages;
 
-public class LogiPage {
+import com.acti.base.DriverScript;
+
+public class LogiPage extends DriverScript{
 
 }
