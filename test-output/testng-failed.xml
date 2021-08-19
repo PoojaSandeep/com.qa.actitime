@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acti.testcase.TaskPageTest">
+        <methods>
+          <include name="testCreateCustomer" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testDeleteCustomer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.acti.testcase.TaskPageTest -->
+      <class name="com.acti.testcase.BaseTest">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.acti.testcase.BaseTest -->
+      <class name="com.acti.testcase.LoginTest">
+        <methods>
+          <include name="initApplicatio"/>
+          <include name="testLoginFunctionValidUser"/>
+          <include name="quitApplication"/>
+        </methods>
+      </class> <!-- com.acti.testcase.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
