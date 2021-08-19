@@ -71,9 +71,11 @@ public class DriverScript {
 			
 			
 	}
+	
+	@Test
 	public void quitApplication()
 	{
-		driver.close();
+		//driver.close();
 	}
 
 }
